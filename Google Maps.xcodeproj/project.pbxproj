@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4FE62B1D5D672A00E108D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE62A1D5D672A00E108D4 /* main.m */; };
+		4B4FE62E1D5D672A00E108D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE62D1D5D672A00E108D4 /* AppDelegate.m */; };
+		4B4FE6311D5D672A00E108D4 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE6301D5D672A00E108D4 /* Start.m */; };
+		4B4FE6341D5D672A00E108D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6321D5D672A00E108D4 /* Main.storyboard */; };
+		4B4FE6371D5D672A00E108D4 /* Google_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE6351D5D672A00E108D4 /* Google_Maps.xcdatamodeld */; };
+		4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6381D5D672A00E108D4 /* Assets.xcassets */; };
+		4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE63A1D5D672A00E108D4 /* LaunchScreen.storyboard */; };
+		4B4FE6461D5D73F600E108D4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6451D5D73F600E108D4 /* Podfile */; };
+		4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF1861D750FCA00CFDE8B /* Details.m */; };
+		4B89B4171D5EBB9800302415 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */; };
+		655A8FEE1D77883A00FECA6C /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FDC1D77883A00FECA6C /* 01d.png */; };
+		655A8FEF1D77883A00FECA6C /* 01n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FDD1D77883A00FECA6C /* 01n.png */; };
+		655A8FF01D77883A00FECA6C /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FDE1D77883A00FECA6C /* 02d.png */; };
+		655A8FF11D77883A00FECA6C /* 02n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FDF1D77883A00FECA6C /* 02n.png */; };
+		655A8FF21D77883A00FECA6C /* 03d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE01D77883A00FECA6C /* 03d.png */; };
+		655A8FF31D77883A00FECA6C /* 03n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE11D77883A00FECA6C /* 03n.png */; };
+		655A8FF41D77883A00FECA6C /* 04d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE21D77883A00FECA6C /* 04d.png */; };
+		655A8FF51D77883A00FECA6C /* 04n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE31D77883A00FECA6C /* 04n.png */; };
+		655A8FF61D77883A00FECA6C /* 09d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE41D77883A00FECA6C /* 09d.png */; };
+		655A8FF71D77883A00FECA6C /* 09n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE51D77883A00FECA6C /* 09n.png */; };
+		655A8FF81D77883A00FECA6C /* 10d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE61D77883A00FECA6C /* 10d.png */; };
+		655A8FF91D77883A00FECA6C /* 10n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE71D77883A00FECA6C /* 10n.png */; };
+		655A8FFA1D77883A00FECA6C /* 11d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE81D77883A00FECA6C /* 11d.png */; };
+		655A8FFB1D77883A00FECA6C /* 11n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FE91D77883A00FECA6C /* 11n.png */; };
+		655A8FFC1D77883A00FECA6C /* 13d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FEA1D77883A00FECA6C /* 13d.png */; };
+		655A8FFD1D77883A00FECA6C /* 13n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FEB1D77883A00FECA6C /* 13n.png */; };
+		655A8FFE1D77883A00FECA6C /* 50d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FEC1D77883A00FECA6C /* 50d.png */; };
+		655A8FFF1D77883A00FECA6C /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FED1D77883A00FECA6C /* 50n.png */; };
+		E465CE52D6D962BAF2FA1B58 /* Pods_Google_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */; };
+		E4C85E9E1D76B25A00B53458 /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E951D76B25A00B53458 /* Coord.m */; };
+		E4C85E9F1D76B25A00B53458 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E971D76B25A00B53458 /* MainObject.m */; };
+		E4C85EA01D76B25A00B53458 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E991D76B25A00B53458 /* Weather.m */; };
+		E4C85EA11D76B25A00B53458 /* WeatherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E9B1D76B25A00B53458 /* WeatherDetail.m */; };
+		E4C85EA21D76B25A00B53458 /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E9D1D76B25A00B53458 /* WeatherObject.m */; };
+		E4C85EA91D76B2A700B53458 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EA41D76B2A700B53458 /* Declarations.m */; };
+		E4C85EAA1D76B2A700B53458 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EA61D76B2A700B53458 /* OCMapperConfig.m */; };
+		E4C85EAB1D76B2A700B53458 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EA81D76B2A700B53458 /* Parser.m */; };
+		E4C85EE11D76B2E700B53458 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EAF1D76B2E700B53458 /* NSObject+SBJson.m */; };
+		E4C85EE21D76B2E700B53458 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EB21D76B2E700B53458 /* SBJsonParser.m */; };
+		E4C85EE31D76B2E700B53458 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EB41D76B2E700B53458 /* SBJsonStreamParser.m */; };
+		E4C85EE41D76B2E700B53458 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EB61D76B2E700B53458 /* SBJsonStreamParserAccumulator.m */; };
+		E4C85EE51D76B2E700B53458 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EB81D76B2E700B53458 /* SBJsonStreamParserAdapter.m */; };
+		E4C85EE61D76B2E700B53458 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EBA1D76B2E700B53458 /* SBJsonStreamParserState.m */; };
+		E4C85EE71D76B2E700B53458 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EBC1D76B2E700B53458 /* SBJsonStreamWriter.m */; };
+		E4C85EE81D76B2E700B53458 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EBE1D76B2E700B53458 /* SBJsonStreamWriterAccumulator.m */; };
+		E4C85EE91D76B2E700B53458 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EC01D76B2E700B53458 /* SBJsonStreamWriterState.m */; };
+		E4C85EEA1D76B2E700B53458 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EC21D76B2E700B53458 /* SBJsonTokeniser.m */; };
+		E4C85EEB1D76B2E700B53458 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EC41D76B2E700B53458 /* SBJsonUTF8Stream.m */; };
+		E4C85EEC1D76B2E700B53458 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EC61D76B2E700B53458 /* SBJsonWriter.m */; };
+		E4C85EED1D76B2E700B53458 /* NSDictionary+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85ECA1D76B2E700B53458 /* NSDictionary+ObjectMapper.m */; };
+		E4C85EEE1D76B2E700B53458 /* NSObject+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85ECC1D76B2E700B53458 /* NSObject+ObjectMapper.m */; };
+		E4C85EEF1D76B2E700B53458 /* ManagedObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85ED01D76B2E700B53458 /* ManagedObjectInstanceProvider.m */; };
+		E4C85EF01D76B2E700B53458 /* ObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85ED21D76B2E700B53458 /* ObjectInstanceProvider.m */; };
+		E4C85EF11D76B2E700B53458 /* CommonLoggingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85ED51D76B2E700B53458 /* CommonLoggingProvider.m */; };
+		E4C85EF21D76B2E700B53458 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EDA1D76B2E700B53458 /* InCodeMappingProvider.m */; };
+		E4C85EF31D76B2E700B53458 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EDD1D76B2E700B53458 /* ObjectMapper.m */; };
+		E4C85EF41D76B2E700B53458 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85EDF1D76B2E700B53458 /* ObjectMappingInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B4FE6261D5D672A00E108D4 /* Google Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4FE62A1D5D672A00E108D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4FE62C1D5D672A00E108D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B4FE62D1D5D672A00E108D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B4FE62F1D5D672A00E108D4 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		4B4FE6301D5D672A00E108D4 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		4B4FE6331D5D672A00E108D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B4FE6361D5D672A00E108D4 /* Google_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Maps.xcdatamodel; sourceTree = "<group>"; };
+		4B4FE6381D5D672A00E108D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B4FE63B1D5D672A00E108D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B4FE63D1D5D672A00E108D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4FE6451D5D73F600E108D4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B7FF1851D750FCA00CFDE8B /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		4B7FF1861D750FCA00CFDE8B /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
+		4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		655A8FDC1D77883A00FECA6C /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01d.png; sourceTree = "<group>"; };
+		655A8FDD1D77883A00FECA6C /* 01n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01n.png; sourceTree = "<group>"; };
+		655A8FDE1D77883A00FECA6C /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02d.png; sourceTree = "<group>"; };
+		655A8FDF1D77883A00FECA6C /* 02n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02n.png; sourceTree = "<group>"; };
+		655A8FE01D77883A00FECA6C /* 03d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03d.png; sourceTree = "<group>"; };
+		655A8FE11D77883A00FECA6C /* 03n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03n.png; sourceTree = "<group>"; };
+		655A8FE21D77883A00FECA6C /* 04d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04d.png; sourceTree = "<group>"; };
+		655A8FE31D77883A00FECA6C /* 04n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04n.png; sourceTree = "<group>"; };
+		655A8FE41D77883A00FECA6C /* 09d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09d.png; sourceTree = "<group>"; };
+		655A8FE51D77883A00FECA6C /* 09n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09n.png; sourceTree = "<group>"; };
+		655A8FE61D77883A00FECA6C /* 10d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10d.png; sourceTree = "<group>"; };
+		655A8FE71D77883A00FECA6C /* 10n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10n.png; sourceTree = "<group>"; };
+		655A8FE81D77883A00FECA6C /* 11d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11d.png; sourceTree = "<group>"; };
+		655A8FE91D77883A00FECA6C /* 11n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11n.png; sourceTree = "<group>"; };
+		655A8FEA1D77883A00FECA6C /* 13d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13d.png; sourceTree = "<group>"; };
+		655A8FEB1D77883A00FECA6C /* 13n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13n.png; sourceTree = "<group>"; };
+		655A8FEC1D77883A00FECA6C /* 50d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50d.png; sourceTree = "<group>"; };
+		655A8FED1D77883A00FECA6C /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50n.png; sourceTree = "<group>"; };
+		BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.release.xcconfig"; sourceTree = "<group>"; };
+		BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C85E941D76B25A00B53458 /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
+		E4C85E951D76B25A00B53458 /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
+		E4C85E961D76B25A00B53458 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		E4C85E971D76B25A00B53458 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
+		E4C85E981D76B25A00B53458 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		E4C85E991D76B25A00B53458 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		E4C85E9A1D76B25A00B53458 /* WeatherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetail.h; sourceTree = "<group>"; };
+		E4C85E9B1D76B25A00B53458 /* WeatherDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetail.m; sourceTree = "<group>"; };
+		E4C85E9C1D76B25A00B53458 /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
+		E4C85E9D1D76B25A00B53458 /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
+		E4C85EA31D76B2A700B53458 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		E4C85EA41D76B2A700B53458 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		E4C85EA51D76B2A700B53458 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		E4C85EA61D76B2A700B53458 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
+		E4C85EA71D76B2A700B53458 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		E4C85EA81D76B2A700B53458 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		E4C85EAE1D76B2E700B53458 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		E4C85EAF1D76B2E700B53458 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		E4C85EB01D76B2E700B53458 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		E4C85EB11D76B2E700B53458 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E4C85EB21D76B2E700B53458 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E4C85EB31D76B2E700B53458 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		E4C85EB41D76B2E700B53458 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		E4C85EB51D76B2E700B53458 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		E4C85EB61D76B2E700B53458 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		E4C85EB71D76B2E700B53458 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		E4C85EB81D76B2E700B53458 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		E4C85EB91D76B2E700B53458 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		E4C85EBA1D76B2E700B53458 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		E4C85EBB1D76B2E700B53458 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		E4C85EBC1D76B2E700B53458 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		E4C85EBD1D76B2E700B53458 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		E4C85EBE1D76B2E700B53458 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		E4C85EBF1D76B2E700B53458 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		E4C85EC01D76B2E700B53458 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		E4C85EC11D76B2E700B53458 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		E4C85EC21D76B2E700B53458 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		E4C85EC31D76B2E700B53458 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		E4C85EC41D76B2E700B53458 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		E4C85EC51D76B2E700B53458 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E4C85EC61D76B2E700B53458 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E4C85EC91D76B2E700B53458 /* NSDictionary+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectMapper.h"; sourceTree = "<group>"; };
+		E4C85ECA1D76B2E700B53458 /* NSDictionary+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectMapper.m"; sourceTree = "<group>"; };
+		E4C85ECB1D76B2E700B53458 /* NSObject+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMapper.h"; sourceTree = "<group>"; };
+		E4C85ECC1D76B2E700B53458 /* NSObject+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMapper.m"; sourceTree = "<group>"; };
+		E4C85ECE1D76B2E700B53458 /* InstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceProvider.h; sourceTree = "<group>"; };
+		E4C85ECF1D76B2E700B53458 /* ManagedObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectInstanceProvider.h; sourceTree = "<group>"; };
+		E4C85ED01D76B2E700B53458 /* ManagedObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectInstanceProvider.m; sourceTree = "<group>"; };
+		E4C85ED11D76B2E700B53458 /* ObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInstanceProvider.h; sourceTree = "<group>"; };
+		E4C85ED21D76B2E700B53458 /* ObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInstanceProvider.m; sourceTree = "<group>"; };
+		E4C85ED41D76B2E700B53458 /* CommonLoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoggingProvider.h; sourceTree = "<group>"; };
+		E4C85ED51D76B2E700B53458 /* CommonLoggingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoggingProvider.m; sourceTree = "<group>"; };
+		E4C85ED61D76B2E700B53458 /* LoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingProvider.h; sourceTree = "<group>"; };
+		E4C85ED91D76B2E700B53458 /* InCodeMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InCodeMappingProvider.h; sourceTree = "<group>"; };
+		E4C85EDA1D76B2E700B53458 /* InCodeMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InCodeMappingProvider.m; sourceTree = "<group>"; };
+		E4C85EDB1D76B2E700B53458 /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		E4C85EDC1D76B2E700B53458 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		E4C85EDD1D76B2E700B53458 /* ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMapper.m; sourceTree = "<group>"; };
+		E4C85EDE1D76B2E700B53458 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
+		E4C85EDF1D76B2E700B53458 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
+		E4C85EE01D76B2E700B53458 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Maps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4FE6231D5D672A00E108D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E465CE52D6D962BAF2FA1B58 /* Pods_Google_Maps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4FE61D1D5D672A00E108D4 = {
+			isa = PBXGroup;
+			children = (
+				4B4FE6281D5D672A00E108D4 /* Google Maps */,
+				4B4FE6271D5D672A00E108D4 /* Products */,
+				9E3E57CD954B8145656ABAAA /* Pods */,
+				706463AE86DB41B71334B17F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4FE6271D5D672A00E108D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FE6261D5D672A00E108D4 /* Google Maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B4FE6281D5D672A00E108D4 /* Google Maps */ = {
+			isa = PBXGroup;
+			children = (
+				655A8FDB1D77881D00FECA6C /* imagenes */,
+				E4C85E921D76B1CF00B53458 /* Classes */,
+				4B4FE6441D5D676D00E108D4 /* Main */,
+				E4C85E931D76B1E100B53458 /* Models */,
+				4B4FE6431D5D675800E108D4 /* Controllers */,
+				4B4FE6321D5D672A00E108D4 /* Main.storyboard */,
+				4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */,
+				4B4FE6381D5D672A00E108D4 /* Assets.xcassets */,
+				4B4FE63A1D5D672A00E108D4 /* LaunchScreen.storyboard */,
+				4B4FE63D1D5D672A00E108D4 /* Info.plist */,
+				4B4FE6351D5D672A00E108D4 /* Google_Maps.xcdatamodeld */,
+				4B4FE6291D5D672A00E108D4 /* Supporting Files */,
+				4B4FE6451D5D73F600E108D4 /* Podfile */,
+			);
+			path = "Google Maps";
+			sourceTree = "<group>";
+		};
+		4B4FE6291D5D672A00E108D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FE62A1D5D672A00E108D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B4FE6431D5D675800E108D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FE62F1D5D672A00E108D4 /* Start.h */,
+				4B4FE6301D5D672A00E108D4 /* Start.m */,
+				4B7FF1851D750FCA00CFDE8B /* Details.h */,
+				4B7FF1861D750FCA00CFDE8B /* Details.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4B4FE6441D5D676D00E108D4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FE62C1D5D672A00E108D4 /* AppDelegate.h */,
+				4B4FE62D1D5D672A00E108D4 /* AppDelegate.m */,
+				E4C85EA31D76B2A700B53458 /* Declarations.h */,
+				E4C85EA41D76B2A700B53458 /* Declarations.m */,
+				E4C85EA71D76B2A700B53458 /* Parser.h */,
+				E4C85EA81D76B2A700B53458 /* Parser.m */,
+				E4C85EA51D76B2A700B53458 /* OCMapperConfig.h */,
+				E4C85EA61D76B2A700B53458 /* OCMapperConfig.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		655A8FDB1D77881D00FECA6C /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				655A8FDC1D77883A00FECA6C /* 01d.png */,
+				655A8FDD1D77883A00FECA6C /* 01n.png */,
+				655A8FDE1D77883A00FECA6C /* 02d.png */,
+				655A8FDF1D77883A00FECA6C /* 02n.png */,
+				655A8FE01D77883A00FECA6C /* 03d.png */,
+				655A8FE11D77883A00FECA6C /* 03n.png */,
+				655A8FE21D77883A00FECA6C /* 04d.png */,
+				655A8FE31D77883A00FECA6C /* 04n.png */,
+				655A8FE41D77883A00FECA6C /* 09d.png */,
+				655A8FE51D77883A00FECA6C /* 09n.png */,
+				655A8FE61D77883A00FECA6C /* 10d.png */,
+				655A8FE71D77883A00FECA6C /* 10n.png */,
+				655A8FE81D77883A00FECA6C /* 11d.png */,
+				655A8FE91D77883A00FECA6C /* 11n.png */,
+				655A8FEA1D77883A00FECA6C /* 13d.png */,
+				655A8FEB1D77883A00FECA6C /* 13n.png */,
+				655A8FEC1D77883A00FECA6C /* 50d.png */,
+				655A8FED1D77883A00FECA6C /* 50n.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
+		706463AE86DB41B71334B17F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E3E57CD954B8145656ABAAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */,
+				BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4C85E921D76B1CF00B53458 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85EAD1D76B2E700B53458 /* json */,
+				E4C85EC71D76B2E700B53458 /* ocmapper */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E4C85E931D76B1E100B53458 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85E9C1D76B25A00B53458 /* WeatherObject.h */,
+				E4C85E9D1D76B25A00B53458 /* WeatherObject.m */,
+				E4C85E941D76B25A00B53458 /* Coord.h */,
+				E4C85E951D76B25A00B53458 /* Coord.m */,
+				E4C85E961D76B25A00B53458 /* MainObject.h */,
+				E4C85E971D76B25A00B53458 /* MainObject.m */,
+				E4C85E981D76B25A00B53458 /* Weather.h */,
+				E4C85E991D76B25A00B53458 /* Weather.m */,
+				E4C85E9A1D76B25A00B53458 /* WeatherDetail.h */,
+				E4C85E9B1D76B25A00B53458 /* WeatherDetail.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E4C85EAD1D76B2E700B53458 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85EAE1D76B2E700B53458 /* NSObject+SBJson.h */,
+				E4C85EAF1D76B2E700B53458 /* NSObject+SBJson.m */,
+				E4C85EB01D76B2E700B53458 /* SBJson.h */,
+				E4C85EB11D76B2E700B53458 /* SBJsonParser.h */,
+				E4C85EB21D76B2E700B53458 /* SBJsonParser.m */,
+				E4C85EB31D76B2E700B53458 /* SBJsonStreamParser.h */,
+				E4C85EB41D76B2E700B53458 /* SBJsonStreamParser.m */,
+				E4C85EB51D76B2E700B53458 /* SBJsonStreamParserAccumulator.h */,
+				E4C85EB61D76B2E700B53458 /* SBJsonStreamParserAccumulator.m */,
+				E4C85EB71D76B2E700B53458 /* SBJsonStreamParserAdapter.h */,
+				E4C85EB81D76B2E700B53458 /* SBJsonStreamParserAdapter.m */,
+				E4C85EB91D76B2E700B53458 /* SBJsonStreamParserState.h */,
+				E4C85EBA1D76B2E700B53458 /* SBJsonStreamParserState.m */,
+				E4C85EBB1D76B2E700B53458 /* SBJsonStreamWriter.h */,
+				E4C85EBC1D76B2E700B53458 /* SBJsonStreamWriter.m */,
+				E4C85EBD1D76B2E700B53458 /* SBJsonStreamWriterAccumulator.h */,
+				E4C85EBE1D76B2E700B53458 /* SBJsonStreamWriterAccumulator.m */,
+				E4C85EBF1D76B2E700B53458 /* SBJsonStreamWriterState.h */,
+				E4C85EC01D76B2E700B53458 /* SBJsonStreamWriterState.m */,
+				E4C85EC11D76B2E700B53458 /* SBJsonTokeniser.h */,
+				E4C85EC21D76B2E700B53458 /* SBJsonTokeniser.m */,
+				E4C85EC31D76B2E700B53458 /* SBJsonUTF8Stream.h */,
+				E4C85EC41D76B2E700B53458 /* SBJsonUTF8Stream.m */,
+				E4C85EC51D76B2E700B53458 /* SBJsonWriter.h */,
+				E4C85EC61D76B2E700B53458 /* SBJsonWriter.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		E4C85EC71D76B2E700B53458 /* ocmapper */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85EC81D76B2E700B53458 /* Categories */,
+				E4C85ECD1D76B2E700B53458 /* Instance Provider */,
+				E4C85ED31D76B2E700B53458 /* Logging Provider */,
+				E4C85ED71D76B2E700B53458 /* Mapping Provider */,
+				E4C85EDC1D76B2E700B53458 /* ObjectMapper.h */,
+				E4C85EDD1D76B2E700B53458 /* ObjectMapper.m */,
+				E4C85EDE1D76B2E700B53458 /* ObjectMappingInfo.h */,
+				E4C85EDF1D76B2E700B53458 /* ObjectMappingInfo.m */,
+				E4C85EE01D76B2E700B53458 /* OCMapper.h */,
+			);
+			path = ocmapper;
+			sourceTree = "<group>";
+		};
+		E4C85EC81D76B2E700B53458 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85EC91D76B2E700B53458 /* NSDictionary+ObjectMapper.h */,
+				E4C85ECA1D76B2E700B53458 /* NSDictionary+ObjectMapper.m */,
+				E4C85ECB1D76B2E700B53458 /* NSObject+ObjectMapper.h */,
+				E4C85ECC1D76B2E700B53458 /* NSObject+ObjectMapper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E4C85ECD1D76B2E700B53458 /* Instance Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85ECE1D76B2E700B53458 /* InstanceProvider.h */,
+				E4C85ECF1D76B2E700B53458 /* ManagedObjectInstanceProvider.h */,
+				E4C85ED01D76B2E700B53458 /* ManagedObjectInstanceProvider.m */,
+				E4C85ED11D76B2E700B53458 /* ObjectInstanceProvider.h */,
+				E4C85ED21D76B2E700B53458 /* ObjectInstanceProvider.m */,
+			);
+			path = "Instance Provider";
+			sourceTree = "<group>";
+		};
+		E4C85ED31D76B2E700B53458 /* Logging Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85ED41D76B2E700B53458 /* CommonLoggingProvider.h */,
+				E4C85ED51D76B2E700B53458 /* CommonLoggingProvider.m */,
+				E4C85ED61D76B2E700B53458 /* LoggingProvider.h */,
+			);
+			path = "Logging Provider";
+			sourceTree = "<group>";
+		};
+		E4C85ED71D76B2E700B53458 /* Mapping Provider */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85ED81D76B2E700B53458 /* In Code Mapping */,
+				E4C85EDB1D76B2E700B53458 /* MappingProvider.h */,
+			);
+			path = "Mapping Provider";
+			sourceTree = "<group>";
+		};
+		E4C85ED81D76B2E700B53458 /* In Code Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				E4C85ED91D76B2E700B53458 /* InCodeMappingProvider.h */,
+				E4C85EDA1D76B2E700B53458 /* InCodeMappingProvider.m */,
+			);
+			path = "In Code Mapping";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4FE6251D5D672A00E108D4 /* Google Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4FE6401D5D672B00E108D4 /* Build configuration list for PBXNativeTarget "Google Maps" */;
+			buildPhases = (
+				E905639AE511855014599DD8 /* [CP] Check Pods Manifest.lock */,
+				4B4FE6221D5D672A00E108D4 /* Sources */,
+				4B4FE6231D5D672A00E108D4 /* Frameworks */,
+				4B4FE6241D5D672A00E108D4 /* Resources */,
+				0AF28BDB5C5AD771F62B6B94 /* [CP] Embed Pods Frameworks */,
+				BA280E77F6DAE444855D37A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Maps";
+			productName = "Google Maps";
+			productReference = 4B4FE6261D5D672A00E108D4 /* Google Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4FE61E1D5D672A00E108D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xax;
+				TargetAttributes = {
+					4B4FE6251D5D672A00E108D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B4FE6211D5D672A00E108D4 /* Build configuration list for PBXProject "Google Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B4FE61D1D5D672A00E108D4;
+			productRefGroup = 4B4FE6271D5D672A00E108D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4FE6251D5D672A00E108D4 /* Google Maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4FE6241D5D672A00E108D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A8FFD1D77883A00FECA6C /* 13n.png in Resources */,
+				655A8FFF1D77883A00FECA6C /* 50n.png in Resources */,
+				655A8FFA1D77883A00FECA6C /* 11d.png in Resources */,
+				655A8FF71D77883A00FECA6C /* 09n.png in Resources */,
+				655A8FF01D77883A00FECA6C /* 02d.png in Resources */,
+				655A8FEF1D77883A00FECA6C /* 01n.png in Resources */,
+				655A8FF51D77883A00FECA6C /* 04n.png in Resources */,
+				655A8FFB1D77883A00FECA6C /* 11n.png in Resources */,
+				655A8FF31D77883A00FECA6C /* 03n.png in Resources */,
+				4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */,
+				655A8FF61D77883A00FECA6C /* 09d.png in Resources */,
+				4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */,
+				4B89B4171D5EBB9800302415 /* GoogleService-Info.plist in Resources */,
+				655A8FF41D77883A00FECA6C /* 04d.png in Resources */,
+				655A8FEE1D77883A00FECA6C /* 01d.png in Resources */,
+				655A8FF91D77883A00FECA6C /* 10n.png in Resources */,
+				655A8FF11D77883A00FECA6C /* 02n.png in Resources */,
+				655A8FF21D77883A00FECA6C /* 03d.png in Resources */,
+				4B4FE6461D5D73F600E108D4 /* Podfile in Resources */,
+				4B4FE6341D5D672A00E108D4 /* Main.storyboard in Resources */,
+				655A8FFE1D77883A00FECA6C /* 50d.png in Resources */,
+				655A8FFC1D77883A00FECA6C /* 13d.png in Resources */,
+				655A8FF81D77883A00FECA6C /* 10d.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AF28BDB5C5AD771F62B6B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA280E77F6DAE444855D37A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E905639AE511855014599DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4FE6221D5D672A00E108D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C85EA11D76B25A00B53458 /* WeatherDetail.m in Sources */,
+				4B4FE6311D5D672A00E108D4 /* Start.m in Sources */,
+				E4C85EE41D76B2E700B53458 /* SBJsonStreamParserAccumulator.m in Sources */,
+				E4C85EF11D76B2E700B53458 /* CommonLoggingProvider.m in Sources */,
+				E4C85EEE1D76B2E700B53458 /* NSObject+ObjectMapper.m in Sources */,
+				E4C85EF31D76B2E700B53458 /* ObjectMapper.m in Sources */,
+				E4C85EE71D76B2E700B53458 /* SBJsonStreamWriter.m in Sources */,
+				4B4FE6371D5D672A00E108D4 /* Google_Maps.xcdatamodeld in Sources */,
+				E4C85EEF1D76B2E700B53458 /* ManagedObjectInstanceProvider.m in Sources */,
+				E4C85EE21D76B2E700B53458 /* SBJsonParser.m in Sources */,
+				E4C85EAB1D76B2A700B53458 /* Parser.m in Sources */,
+				E4C85EA21D76B25A00B53458 /* WeatherObject.m in Sources */,
+				E4C85EF21D76B2E700B53458 /* InCodeMappingProvider.m in Sources */,
+				E4C85EEA1D76B2E700B53458 /* SBJsonTokeniser.m in Sources */,
+				E4C85EAA1D76B2A700B53458 /* OCMapperConfig.m in Sources */,
+				E4C85EE61D76B2E700B53458 /* SBJsonStreamParserState.m in Sources */,
+				E4C85EE31D76B2E700B53458 /* SBJsonStreamParser.m in Sources */,
+				E4C85EE11D76B2E700B53458 /* NSObject+SBJson.m in Sources */,
+				4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */,
+				E4C85E9F1D76B25A00B53458 /* MainObject.m in Sources */,
+				E4C85EA01D76B25A00B53458 /* Weather.m in Sources */,
+				E4C85EED1D76B2E700B53458 /* NSDictionary+ObjectMapper.m in Sources */,
+				E4C85EE91D76B2E700B53458 /* SBJsonStreamWriterState.m in Sources */,
+				E4C85E9E1D76B25A00B53458 /* Coord.m in Sources */,
+				E4C85EF41D76B2E700B53458 /* ObjectMappingInfo.m in Sources */,
+				4B4FE62E1D5D672A00E108D4 /* AppDelegate.m in Sources */,
+				E4C85EE81D76B2E700B53458 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				E4C85EA91D76B2A700B53458 /* Declarations.m in Sources */,
+				E4C85EF01D76B2E700B53458 /* ObjectInstanceProvider.m in Sources */,
+				E4C85EEC1D76B2E700B53458 /* SBJsonWriter.m in Sources */,
+				4B4FE62B1D5D672A00E108D4 /* main.m in Sources */,
+				E4C85EE51D76B2E700B53458 /* SBJsonStreamParserAdapter.m in Sources */,
+				E4C85EEB1D76B2E700B53458 /* SBJsonUTF8Stream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B4FE6321D5D672A00E108D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4FE6331D5D672A00E108D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B4FE63A1D5D672A00E108D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4FE63B1D5D672A00E108D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4FE63E1D5D672B00E108D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B4FE63F1D5D672B00E108D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B4FE6411D5D672B00E108D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Google-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B4FE6421D5D672B00E108D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Google-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4FE6211D5D672A00E108D4 /* Build configuration list for PBXProject "Google Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4FE63E1D5D672B00E108D4 /* Debug */,
+				4B4FE63F1D5D672B00E108D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4FE6401D5D672B00E108D4 /* Build configuration list for PBXNativeTarget "Google Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4FE6411D5D672B00E108D4 /* Debug */,
+				4B4FE6421D5D672B00E108D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B4FE6351D5D672A00E108D4 /* Google_Maps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B4FE6361D5D672A00E108D4 /* Google_Maps.xcdatamodel */,
+			);
+			currentVersion = 4B4FE6361D5D672A00E108D4 /* Google_Maps.xcdatamodel */;
+			path = Google_Maps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B4FE61E1D5D672A00E108D4 /* Project object */;
+}
