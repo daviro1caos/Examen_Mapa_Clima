@@ -39,6 +39,7 @@ float longitude_;
     Weather *weather                = [Parser parseWeather];
     
     WeatherDetail *weatherDetail    = [weather getWeatherDetail:0];
+    
     print(NSLog(@"icon %@", weatherDetail.icon))
     print(NSLog(@"Name %@", mWeatherObject.name))
 }
@@ -73,10 +74,13 @@ float longitude_;
     
     float tempKelvin        = mWeatherObject.main.temp;
     float tempCelsius       = tempKelvin - 273.15;
-    self.lblTemp.text       = [NSString stringWithFormat:@"%.2f", tempCelsius];
-    self.lblTempMax.text    = [NSString stringWithFormat:@"%.2f", mWeatherObject.main.temp_max - 273.15];
-    self.lblTempMin.text    = [NSString stringWithFormat:@"%.2f", mWeatherObject.main.temp_min - 273.15];
-    self.lblPressure.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.pressure];
-    self.lblHumidity.text   = [NSString stringWithFormat:@"%d", mWeatherObject.main.humidity];
+    self.lblTemp.text       = [NSString stringWithFormat:@"%.2f°", tempCelsius];
+    self.lblTempMax.text    = [NSString stringWithFormat:@"%.2f°", mWeatherObject.main.temp_max - 273.15];
+    self.lblTempMin.text    = [NSString stringWithFormat:@"%.2f°", mWeatherObject.main.temp_min - 273.15];
+    self.lblPressure.text   = [NSString stringWithFormat:@"%dPa", mWeatherObject.main.pressure];
+    self.lblHumidity.text   = [NSString stringWithFormat:@"%d%", mWeatherObject.main.humidity];
+    self.lblicon.text       = [NSString stringWithFormat:@"%d", mWeatherObject.main.humidity];
+    
+    
 }
 @end
