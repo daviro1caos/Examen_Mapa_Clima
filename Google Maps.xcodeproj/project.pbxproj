@@ -35,6 +35,11 @@
 		655A8FFD1D77883A00FECA6C /* 13n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FEB1D77883A00FECA6C /* 13n.png */; };
 		655A8FFE1D77883A00FECA6C /* 50d.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FEC1D77883A00FECA6C /* 50d.png */; };
 		655A8FFF1D77883A00FECA6C /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = 655A8FED1D77883A00FECA6C /* 50n.png */; };
+		655A902D1D77BBCE00FECA6C /* clima1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 655A90281D77BBCE00FECA6C /* clima1.jpg */; };
+		655A902E1D77BBCE00FECA6C /* clima2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 655A90291D77BBCE00FECA6C /* clima2.jpg */; };
+		655A902F1D77BBCE00FECA6C /* clima3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 655A902A1D77BBCE00FECA6C /* clima3.jpg */; };
+		655A90301D77BBCE00FECA6C /* clima4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 655A902B1D77BBCE00FECA6C /* clima4.jpg */; };
+		655A90311D77BBCE00FECA6C /* clima6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 655A902C1D77BBCE00FECA6C /* clima6.jpg */; };
 		E465CE52D6D962BAF2FA1B58 /* Pods_Google_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */; };
 		E4C85E9E1D76B25A00B53458 /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E951D76B25A00B53458 /* Coord.m */; };
 		E4C85E9F1D76B25A00B53458 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C85E971D76B25A00B53458 /* MainObject.m */; };
@@ -100,6 +105,11 @@
 		655A8FEB1D77883A00FECA6C /* 13n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13n.png; sourceTree = "<group>"; };
 		655A8FEC1D77883A00FECA6C /* 50d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50d.png; sourceTree = "<group>"; };
 		655A8FED1D77883A00FECA6C /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50n.png; sourceTree = "<group>"; };
+		655A90281D77BBCE00FECA6C /* clima1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clima1.jpg; sourceTree = "<group>"; };
+		655A90291D77BBCE00FECA6C /* clima2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clima2.jpg; sourceTree = "<group>"; };
+		655A902A1D77BBCE00FECA6C /* clima3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clima3.jpg; sourceTree = "<group>"; };
+		655A902B1D77BBCE00FECA6C /* clima4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clima4.jpg; sourceTree = "<group>"; };
+		655A902C1D77BBCE00FECA6C /* clima6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clima6.jpg; sourceTree = "<group>"; };
 		BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.release.xcconfig"; sourceTree = "<group>"; };
 		BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C85E941D76B25A00B53458 /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
@@ -253,6 +263,11 @@
 		655A8FDB1D77881D00FECA6C /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				655A90281D77BBCE00FECA6C /* clima1.jpg */,
+				655A90291D77BBCE00FECA6C /* clima2.jpg */,
+				655A902A1D77BBCE00FECA6C /* clima3.jpg */,
+				655A902B1D77BBCE00FECA6C /* clima4.jpg */,
+				655A902C1D77BBCE00FECA6C /* clima6.jpg */,
 				655A8FDC1D77883A00FECA6C /* 01d.png */,
 				655A8FDD1D77883A00FECA6C /* 01n.png */,
 				655A8FDE1D77883A00FECA6C /* 02d.png */,
@@ -483,9 +498,13 @@
 				655A8FF71D77883A00FECA6C /* 09n.png in Resources */,
 				655A8FF01D77883A00FECA6C /* 02d.png in Resources */,
 				655A8FEF1D77883A00FECA6C /* 01n.png in Resources */,
+				655A902F1D77BBCE00FECA6C /* clima3.jpg in Resources */,
+				655A90301D77BBCE00FECA6C /* clima4.jpg in Resources */,
 				655A8FF51D77883A00FECA6C /* 04n.png in Resources */,
+				655A90311D77BBCE00FECA6C /* clima6.jpg in Resources */,
 				655A8FFB1D77883A00FECA6C /* 11n.png in Resources */,
 				655A8FF31D77883A00FECA6C /* 03n.png in Resources */,
+				655A902E1D77BBCE00FECA6C /* clima2.jpg in Resources */,
 				4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */,
 				655A8FF61D77883A00FECA6C /* 09d.png in Resources */,
 				4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */,
@@ -493,6 +512,7 @@
 				655A8FF41D77883A00FECA6C /* 04d.png in Resources */,
 				655A8FEE1D77883A00FECA6C /* 01d.png in Resources */,
 				655A8FF91D77883A00FECA6C /* 10n.png in Resources */,
+				655A902D1D77BBCE00FECA6C /* clima1.jpg in Resources */,
 				655A8FF11D77883A00FECA6C /* 02n.png in Resources */,
 				655A8FF21D77883A00FECA6C /* 03d.png in Resources */,
 				4B4FE6461D5D73F600E108D4 /* Podfile in Resources */,
